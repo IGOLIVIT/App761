@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7809B9342CC12C8900D089BF /* Scen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B9332CC12C8900D089BF /* Scen.swift */; };
+		7809B9362CC12C9000D089BF /* Wear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B9352CC12C9000D089BF /* Wear.swift */; };
+		7809B9382CC12C9800D089BF /* Ducl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B9372CC12C9800D089BF /* Ducl.swift */; };
 		786130A82CB454A20008F9B6 /* App761App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786130A72CB454A20008F9B6 /* App761App.swift */; };
 		786130AA2CB454A20008F9B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786130A92CB454A20008F9B6 /* ContentView.swift */; };
 		786130AC2CB454A40008F9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786130AB2CB454A40008F9B6 /* Assets.xcassets */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7809B9332CC12C8900D089BF /* Scen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scen.swift; sourceTree = "<group>"; };
+		7809B9352CC12C9000D089BF /* Wear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wear.swift; sourceTree = "<group>"; };
+		7809B9372CC12C9800D089BF /* Ducl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ducl.swift; sourceTree = "<group>"; };
 		786130A42CB454A20008F9B6 /* App761.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App761.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		786130A72CB454A20008F9B6 /* App761App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App761App.swift; sourceTree = "<group>"; };
 		786130A92CB454A20008F9B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +140,9 @@
 				786130CA2CB457700008F9B6 /* Array.swift */,
 				786130CC2CB457790008F9B6 /* DateConvert.swift */,
 				786130E72CB57D130008F9B6 /* CoreModel.xcdatamodeld */,
+				7809B9332CC12C8900D089BF /* Scen.swift */,
+				7809B9352CC12C9000D089BF /* Wear.swift */,
+				7809B9372CC12C9800D089BF /* Ducl.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -299,11 +308,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				786130E12CB457CD0008F9B6 /* EventsViewModel.swift in Sources */,
+				7809B9382CC12C9800D089BF /* Ducl.swift in Sources */,
 				786130DF2CB457BC0008F9B6 /* Not.swift in Sources */,
 				786130C72CB457590008F9B6 /* SettingsView.swift in Sources */,
 				786130D72CB457A10008F9B6 /* R1.swift in Sources */,
 				786130AA2CB454A20008F9B6 /* ContentView.swift in Sources */,
 				786130D52CB4579C0008F9B6 /* LoadingView.swift in Sources */,
+				7809B9342CC12C8900D089BF /* Scen.swift in Sources */,
 				786130E32CB457D80008F9B6 /* ParticipantsViewModel.swift in Sources */,
 				786130CB2CB457700008F9B6 /* Array.swift in Sources */,
 				786130CD2CB457790008F9B6 /* DateConvert.swift in Sources */,
@@ -317,6 +328,7 @@
 				786130E92CB57D130008F9B6 /* CoreModel.xcdatamodeld in Sources */,
 				786130E62CB57CD20008F9B6 /* AddPart.swift in Sources */,
 				786130DD2CB457B60008F9B6 /* Reviews.swift in Sources */,
+				7809B9362CC12C9000D089BF /* Wear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App761/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = 4RaDreamSpectrum;
+				INFOPLIST_KEY_CFBundleDisplayName = "4ra: Ball\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -487,7 +499,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App761/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = 4RaDreamSpectrum;
+				INFOPLIST_KEY_CFBundleDisplayName = "4ra: Ball\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
